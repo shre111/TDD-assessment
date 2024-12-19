@@ -3,7 +3,6 @@ function add(numbers) {
   
     const nums = numbers.split(/,|\n/);
     return nums.reduce((sum, num) => sum + parseInt(num), 0);
-}
-
+}  
 
 module.exports = add;
