@@ -34,4 +34,4 @@ test('should ignore numbers greater than 1000', () => {
 
 test('should include numbers less than or equal to 1000', () => {
     expect(add("2,1000")).toBe(1002);
-});  
+});
